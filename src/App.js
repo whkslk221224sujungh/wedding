@@ -7,6 +7,7 @@ import InviteMessage from "./Components/InviteMessage";
 import Snap from "./Components/Snap";
 import WeddingDate from "./Components/WeddingDate";
 import Location from "./Components/Location";
+import Contacts from "./Components/Contacts";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "./scss/snow.scss";
 
@@ -46,6 +47,7 @@ function App() {
               <Snap />
               <WeddingDate />
               <Location />
+              <Contacts />
             </Snow>
           </ComponentsBlock>
         )}
