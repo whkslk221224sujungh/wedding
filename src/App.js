@@ -4,6 +4,8 @@ import InitialPage from "./Components/InitialPage";
 import ComponentsBlock from "./Components/ComponentsBlock";
 import HeroAndHeroine from "./Components/HeroAndHeroine";
 import InviteMessage from "./Components/InviteMessage";
+import Snap from "./Components/Snap";
+import "bootstrap/dist/css/bootstrap.min.css";
 import "./scss/snow.scss";
 
 function Snow({ children }) {
@@ -39,6 +41,7 @@ function App() {
             <Snow>
               <HeroAndHeroine />
               <InviteMessage />
+              <Snap />
             </Snow>
           </ComponentsBlock>
         )}
