@@ -2,10 +2,15 @@ import React, { useState, useEffect } from "react";
 import styled from "styled-components";
 import InitialPage from "./Components/InitialPage";
 import ComponentsBlock from "./Components/ComponentsBlock";
+import "./snow.scss";
+
+function Snow({ children }) {
+  return <div id="snow">{children}</div>;
+}
 
 const Background = styled.div`
   background-color: #8f6749;
-  background-image: url("/blizzard.png");
+  background-image: url("/wedding/blizzard.png");
 `;
 
 function App() {
@@ -28,7 +33,9 @@ function App() {
         {!(percent > 100) ? (
           <InitialPage percent={percent} />
         ) : (
-          <ComponentsBlock></ComponentsBlock>
+          <ComponentsBlock>
+            <Snow></Snow>
+          </ComponentsBlock>
         )}
       </Background>
     </>
