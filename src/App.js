@@ -2,7 +2,8 @@ import React, { useState, useEffect } from "react";
 import styled from "styled-components";
 import InitialPage from "./Components/InitialPage";
 import ComponentsBlock from "./Components/ComponentsBlock";
-import "./snow.scss";
+import HeroAndHeroine from "./Components/HeroAndHeroine";
+import "./scss/snow.scss";
 
 function Snow({ children }) {
   return <div id="snow">{children}</div>;
@@ -34,7 +35,9 @@ function App() {
           <InitialPage percent={percent} />
         ) : (
           <ComponentsBlock>
-            <Snow></Snow>
+            <Snow>
+              <HeroAndHeroine />
+            </Snow>
           </ComponentsBlock>
         )}
       </Background>
