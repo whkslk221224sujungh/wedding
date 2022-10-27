@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/static/css/main.892ac9b6.css",
-    "main.js": "/static/js/main.9bd4c43b.js",
-    "static/js/787.4ff3cea1.chunk.js": "/static/js/787.4ff3cea1.chunk.js",
-    "index.html": "/index.html",
-    "main.892ac9b6.css.map": "/static/css/main.892ac9b6.css.map",
-    "main.9bd4c43b.js.map": "/static/js/main.9bd4c43b.js.map",
-    "787.4ff3cea1.chunk.js.map": "/static/js/787.4ff3cea1.chunk.js.map"
+    "main.css": "/wedding/static/css/main.892ac9b6.css",
+    "main.js": "/wedding/static/js/main.5d818946.js",
+    "static/js/787.4ff3cea1.chunk.js": "/wedding/static/js/787.4ff3cea1.chunk.js",
+    "index.html": "/wedding/index.html",
+    "main.892ac9b6.css.map": "/wedding/static/css/main.892ac9b6.css.map",
+    "main.5d818946.js.map": "/wedding/static/js/main.5d818946.js.map",
+    "787.4ff3cea1.chunk.js.map": "/wedding/static/js/787.4ff3cea1.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.892ac9b6.css",
-    "static/js/main.9bd4c43b.js"
+    "static/js/main.5d818946.js"
   ]
 }
