@@ -6,6 +6,7 @@ import HeroAndHeroine from "./Components/HeroAndHeroine";
 import InviteMessage from "./Components/InviteMessage";
 import Snap from "./Components/Snap";
 import WeddingDate from "./Components/WeddingDate";
+import Location from "./Components/Location";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "./scss/snow.scss";
 
@@ -44,6 +45,7 @@ function App() {
               <InviteMessage />
               <Snap />
               <WeddingDate />
+              <Location />
             </Snow>
           </ComponentsBlock>
         )}
