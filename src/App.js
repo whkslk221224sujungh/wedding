@@ -3,6 +3,7 @@ import styled from "styled-components";
 import InitialPage from "./Components/InitialPage";
 import ComponentsBlock from "./Components/ComponentsBlock";
 import HeroAndHeroine from "./Components/HeroAndHeroine";
+import InviteMessage from "./Components/InviteMessage";
 import "./scss/snow.scss";
 
 function Snow({ children }) {
@@ -37,6 +38,7 @@ function App() {
           <ComponentsBlock>
             <Snow>
               <HeroAndHeroine />
+              <InviteMessage />
             </Snow>
           </ComponentsBlock>
         )}
