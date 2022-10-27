@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from "react";
 import styled from "styled-components";
 import InitialPage from "./Components/InitialPage";
+import ComponentsBlock from "./Components/ComponentsBlock";
 
 const Background = styled.div`
   background-color: #8f6749;
@@ -24,7 +25,11 @@ function App() {
   return (
     <>
       <Background>
-        {!(percent > 100) && <InitialPage percent={percent} />}
+        {!(percent > 100) ? (
+          <InitialPage percent={percent} />
+        ) : (
+          <ComponentsBlock></ComponentsBlock>
+        )}
       </Background>
     </>
   );
