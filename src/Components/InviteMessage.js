@@ -49,10 +49,10 @@ function InviteMessage() {
         <Span>2022년 설레는 연애를 시작하려 합니다.</Span>
       </Template>
       <Template>
-        <Span>저희 두 사람의 새로운 시작, 함께 축복해 주시면</Span>
+        <Span>저희 두 사람의 새로운 시작,</Span>
       </Template>
       <Template>
-        <Span>감사하겠습니다.</Span>
+        <Span>함께 축복해 주시면 감사하겠습니다.</Span>
       </Template>
       <div
         data-aos="fade-up"
