@@ -44,7 +44,7 @@ const KakaoMap = styled.div`
   max-width: 780px;
   width: 380px;
   min-width: 200px;
-  height: 450px;
+  height: 250px;
   display: block;
 `;
 
