@@ -54,10 +54,10 @@ function HeroAndHeroine() {
       <ImageBlock src="main.jpg" />
       <TextBlock>
         <Pair isLeft>
-          <Span>김주환</Span>
+          <Span>한수정</Span>
         </Pair>
         <Pair>
-          <Span>한수정</Span>
+          <Span>김주환</Span>
         </Pair>
       </TextBlock>
       <TextBlock top="10px">
