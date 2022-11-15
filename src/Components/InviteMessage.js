@@ -1,8 +1,21 @@
 import React from "react";
-import styled from "styled-components";
+import styled, { keyframes } from "styled-components";
+
+const slideUp = keyframes`
+  from {
+    transform: translateY(50px);
+  }
+  to {
+    transform: translateY(10px);
+  }
+`;
 
 const Outer = styled.div`
   padding-top: 50px;
+  animation-name: ${slideUp};
+  animation-duration: 1.25s;
+  animation-timing-function: ease-out;
+  animation-fill-mode: forwards;
 `;
 
 const Template = styled.div`
