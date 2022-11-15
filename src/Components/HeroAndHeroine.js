@@ -30,7 +30,7 @@ const ImageBlock = styled.img`
 const TextBlock = styled.div`
   display: flex;
   justify-content: center;
-  padding-top: ${(props) => props.top || "30px"};
+  padding-top: ${(props) => props.top || "10px"};
   padding-left: 20px;
   padding-right: 20px;
   animation-name: ${slideUp};
@@ -45,8 +45,7 @@ const Pair = styled.div`
 `;
 const Span = styled.span`
   font-weight: 520;
-  font-family: "나눔고딕", "Noto Serif KR", serif;
-  font-size: ${(props) => props.fontSize || "20px"};
+  font-size: ${(props) => props.fontSize || "18px"};
 `;
 
 function HeroAndHeroine() {

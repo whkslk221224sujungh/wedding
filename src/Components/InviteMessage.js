@@ -1,5 +1,5 @@
-import React from 'react';
-import styled from 'styled-components';
+import React from "react";
+import styled from "styled-components";
 
 const Outer = styled.div`
   padding-top: 50px;
@@ -8,15 +8,14 @@ const Outer = styled.div`
 const Template = styled.div`
   display: flex;
   justify-content: center;
-  padding-top: ${(props) => props.top || '15px'};
+  padding-top: ${(props) => props.top || "18px"};
   padding-left: 20px;
   padding-right: 20px;
 `;
 
 const Span = styled.span`
   white-space: pre-wrap;
-  font-family: '나눔고딕', 'Noto Serif KR', serif;
-  font-size: ${(props) => props.fontSize || '16px'};
+  font-size: ${(props) => props.fontSize || "18px"};
   font-weight: ${(props) => props.weight || 520};
 `;
 
@@ -56,7 +55,7 @@ function InviteMessage() {
           <Span weight="bold">
             한중희 · 김현회
             <Span fontSize="14px">{` 의  딸  `}</Span>
-            {' 수정'}
+            {" 수정"}
           </Span>
         </Template>
       </div>
