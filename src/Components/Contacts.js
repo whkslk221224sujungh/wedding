@@ -4,7 +4,7 @@ import styled from "styled-components";
 const Template = styled.div`
   display: flex;
   justify-content: center;
-  padding-top: 30px;
+  padding-top: 40px;
   padding-left: 20px;
   padding-right: 20px;
 `;

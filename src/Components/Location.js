@@ -34,6 +34,7 @@ const StylesImage = styled.img`
 const TextBlock = styled.div`
   width: 380px;
   font-size: 15px;
+  margin-top: 30px;
 `;
 
 const Bold = styled.span`
