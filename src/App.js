@@ -9,6 +9,8 @@ import WeddingDate from "./Components/WeddingDate";
 import Location from "./Components/Location";
 import Contacts from "./Components/Contacts";
 import Footer from "./Components/Footer";
+import TransferringMessage from "./Components/TransferringMessage";
+import AccountInfo from "./Components/AccountInfo";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "./scss/snow.scss";
 
@@ -23,6 +25,9 @@ const Background = styled.div`
 
 function App() {
   const [percent, setPercent] = useState(0);
+  const [accountBlock, setAccountBlock] = useState(false);
+  const [keyword, setKeyword] = useState("Bride");
+
   useEffect(() => {
     if (!(percent > 100)) {
       const fn = setInterval(() => {
@@ -35,6 +40,24 @@ function App() {
       return () => clearInterval(fn);
     }
   }, [percent]);
+
+  const onClickBridegroomAccount = () => {
+    document.body.style.overflow = "hidden";
+    setAccountBlock(true);
+    setKeyword("Bridegroom");
+  };
+
+  const onClickBrideAccount = () => {
+    document.body.style.overflow = "hidden";
+    setAccountBlock(true);
+    setKeyword("Bride");
+  };
+
+  const onClose = () => {
+    document.body.style.overflow = "scroll";
+    setAccountBlock(false);
+  };
+
   return (
     <>
       <Background>
@@ -49,6 +72,15 @@ function App() {
               <WeddingDate />
               <Location />
               <Contacts />
+              <TransferringMessage
+                onClickBrideAccount={onClickBrideAccount}
+                onClickBridegroomAccount={onClickBridegroomAccount}
+              />
+              <AccountInfo
+                onClose={onClose}
+                keyword={keyword}
+                visible={accountBlock}
+              />
               <Footer />
             </Snow>
           </ComponentsBlock>
