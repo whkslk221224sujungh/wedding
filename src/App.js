@@ -19,7 +19,7 @@ function Snow({ children }) {
 }
 
 const Background = styled.div`
-  background-color: #8f6749;
+  background-color: black;
   background-image: url("/wedding/blizzard.png");
 `;
 

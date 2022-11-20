@@ -2,7 +2,7 @@ import React from "react";
 import styled from "styled-components";
 
 const Div = styled.div`
-  padding-top: ${(props) => props.top || "200px"};
+  padding-top: ${(props) => props.top || "120px"};
   display: flex;
   font-family: "NanumSquareRoundR";
   justify-content: center;

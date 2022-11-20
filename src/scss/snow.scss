@@ -1,37 +1,37 @@
 @-webkit-keyframes snow {
   0% { background-position: 0px 0px, 0px 0px, 0px 0px }
-  50% { background-color: #c4e1f3 }
+  50% { background-color: #deebf7 }
   100% {
       background-position: 500px 1000px, 400px 400px, 300px 300px;
-      background-color: #aed2f7;
+      background-color: #deebf7;
   }
 }
 @-moz-keyframes snow {
   0% { background-position: 0px 0px, 0px 0px, 0px 0px }
-  50% { background-color: #c4e1f3 }
+  50% { background-color: #deebf7 }
   100% {
       background-position: 500px 1000px, 400px 400px, 300px 300px;
-      background-color: #aed2f7;
+      background-color: #deebf7;
   }
 }
 @-ms-keyframes snow {
   0% { background-position: 0px 0px, 0px 0px, 0px 0px }
-  50% { background-color: #c4e1f3 }
+  50% { background-color: #deebf7 }
   100% {
       background-position: 500px 1000px, 400px 400px, 300px 300px;
-      background-color: #aed2f7;
+      background-color: #deebf7;
   }
 }
 @keyframes snow {
   0% { background-position: 0px 0px, 0px 0px, 0px 0px }
-  50% { background-color: #c4e1f3 }
+  50% { background-color: #deebf7 }
   100% {
       background-position: 500px 1000px, 400px 400px, 300px 300px;
-      background-color: #aed2f7;
+      background-color: #deebf7;
   }
 }
 #snow {
-  background-color: #aed2f7;
+  background-color: #deebf7;
   background-image: url('snow1.png'), url('snow2.png'), url('snow3.png');
   -webkit-animation: snow 20s linear infinite;
   -moz-animation: snow 20s linear infinite;

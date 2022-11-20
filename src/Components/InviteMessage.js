@@ -28,7 +28,7 @@ const Template = styled.div`
 
 const Span = styled.span`
   white-space: pre-wrap;
-  font-size: ${(props) => props.fontSize || "18px"};
+  font-size: ${(props) => props.fontSize || "17px"};
   font-weight: ${(props) => props.weight || 520};
 `;
 
@@ -39,7 +39,7 @@ function InviteMessage() {
       data-aos-duration="1500"
       data-aos-easing="ease-out"
     >
-      <Template>
+      <Template top='26px'>
         <Span>2011년 선후배라는 이름으로 만나</Span>
       </Template>
       <Template>
@@ -59,7 +59,7 @@ function InviteMessage() {
         data-aos-duration="1500"
         data-aos-easing="ease-out"
       >
-        <Template top="50px">
+        <Template top="100px">
           <Span weight="bold">
             김동구 · 신태자 <Span fontSize="14px">의 아들</Span> 주환
           </Span>

@@ -4,7 +4,7 @@ import styled from 'styled-components';
 const Foot = styled.footer`
   display: flex;
   justify-content: center;
-  margin-top: 200px;
+  margin-top: 100px;
   margin-bottom: 20px;
   font-size: 10px;
   border-top: 1px;

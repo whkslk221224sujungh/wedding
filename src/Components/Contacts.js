@@ -64,7 +64,7 @@ const Bridegroom = () => {
 };
 
 const Bride = () => {
-  return <ContactsPoint relation="신부" name="한수정" number="01073873883" />;
+  return <ContactsPoint relation="신부" name="한수정" number="01073003889" />;
 };
 
 const ParentsOfBridegroom = () => {
@@ -81,7 +81,7 @@ const ParentsOfBride = () => {
   return (
     <>
       <MarginLeftDiv>신부측 혼주</MarginLeftDiv>
-      <ContactsPoint relation="아버지" name="한중희" number="01073873883" />
+      <ContactsPoint relation="아버지" name="한중희" number="01096513883" />
       <ContactsPoint relation="어머니" name="김현회" number="01067313883" />
     </>
   );

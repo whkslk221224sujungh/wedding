@@ -2,7 +2,7 @@ import Carousel from "react-bootstrap/Carousel";
 import styled from "styled-components";
 
 const OuterForMargin = styled.div`
-  margin-top: 200px;
+  margin-top: 160px;
 `;
 
 const InnerForCenter = styled.div`

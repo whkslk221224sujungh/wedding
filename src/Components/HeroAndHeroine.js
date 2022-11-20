@@ -40,31 +40,32 @@ const TextBlock = styled.div`
 `;
 
 const Pair = styled.div`
-  padding-right: ${(props) => props.isLeft && "15%"};
-  padding-left: ${(props) => !props.isLeft && "15%"};
+  padding-right: ${(props) => props.isLeft && "14%"};
+  padding-left: ${(props) => !props.isLeft && "14%"};
 `;
 const Span = styled.span`
   font-weight: 520;
   font-size: ${(props) => props.fontSize || "18px"};
+  font-weight: ${(props) => props.weight && props.weight};
 `;
 
 function HeroAndHeroine() {
   return (
     <>
-      <ImageBlock src="main.jpg" />
-      <TextBlock>
+      <ImageBlock src="snap/06.jpg" />
+      <TextBlock top = "60px">
         <Pair isLeft>
-          <Span>한수정</Span>
+          <Span weight='bold'>김주환</Span>
         </Pair>
         <Pair>
-          <Span>김주환</Span>
+          <Span weight='bold'>한수정</Span>
         </Pair>
       </TextBlock>
-      <TextBlock top="10px">
-        <Span fontSize="16px">2022년 12월24일 토요일 낮 12시</Span>
+      <TextBlock top="40px">
+        <Span fontSize="17px">2022년 12월24일 토요일 낮 12시</Span>
       </TextBlock>
       <TextBlock top="10px">
-        <Span fontSize="14px">JW 메리어트 호텔 서울 5층 그랜드 볼룸</Span>
+        <Span fontSize="17px">JW 메리어트 호텔 서울 5층 그랜드 볼룸</Span>
       </TextBlock>
     </>
   );
