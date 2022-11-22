@@ -62,7 +62,10 @@ function App() {
     <>
       <Background>
         {!(percent > 100) ? (
+          <>
           <InitialPage percent={percent} />
+          <img src="snap//06.jpg" alt="preload" height={"0px"} />
+          </>
         ) : (
           <ComponentsBlock>
             <Snow>
